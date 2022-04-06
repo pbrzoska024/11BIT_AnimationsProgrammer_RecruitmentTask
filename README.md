@@ -30,8 +30,8 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- Goals -->
+## Goals
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
