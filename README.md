@@ -30,7 +30,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="![image](https://user-images.githubusercontent.com/53401206/161959305-35237ff0-6b66-4fae-a200-370559697e87.png)">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
