@@ -44,19 +44,20 @@ moving their left hand instead.
 UAnimGraphNode_Base should be created. These should be used in an Animation
 Blueprint to demonstrate how the mirroring works.
 
-### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
 
 
+<!-- Requirements -->
+## Requirements
 
-<!-- GETTING STARTED -->
-## Getting Started
+● The solution should be provided as an Unreal Engine project based on the
+ThirdPerson_Cpp template, including C++ source code and an ABP graph showing
+usage of the new Mirror node.
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+● The mirror node should work with the default UE4 mannequin and skeleton, as well
+as the animations supplied with the sample.
+
+● No third-party plugins should be used.
+
 
 ### Prerequisites
 
