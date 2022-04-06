@@ -22,12 +22,7 @@
 ## Table of Contents
 
 * [Goals](#Goals)
-  * [1](#1)
-  * [2](#2)
-  * [3](#3)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
+* [Requirements](#Requirements)
 * [Usage](#usage)
  * [Built With](#built-with)
 * [Roadmap](#roadmap)
