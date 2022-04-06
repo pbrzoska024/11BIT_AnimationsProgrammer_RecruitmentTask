@@ -10,10 +10,10 @@
   <a href="https://github.com/pbrzoska024/FPS-MULTIPLAYER-PROJECT-WINDOWS64-32BIT-">
   </a>
   <img src="images/LOGO.jpg" alt="Logo" width="80" height="80">
-  <h3 align="center">MultiplayerFPS</h3>
+  <h3 align="center">Animation Programmer </h3>
 
   <p align="center">
-  PROJECT DOCUMENTATION
+  Recruitment Task
    
 
 
