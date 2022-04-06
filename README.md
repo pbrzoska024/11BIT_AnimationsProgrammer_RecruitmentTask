@@ -33,18 +33,15 @@
 <!-- Goals -->
 ## Goals
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+The main goal is to create a new Animation Graph node - one that would mirror the
+input pose across the XZ plane.
+● By mirroring we mean that any transform that would be applied to a bone on the left
+side of the skeleton should be flipped and applied to a corresponding bone on the
+right. An animation showing a character moving their right hand should show them
+moving their left hand instead.
+● The task should be done in C++. New subclasses FAnimNode_Base and
+UAnimGraphNode_Base should be created. These should be used in an Animation
+Blueprint to demonstrate how the mirroring works.
 
 ### Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
