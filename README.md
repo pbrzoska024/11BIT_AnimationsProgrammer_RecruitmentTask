@@ -33,8 +33,8 @@
 <!-- Goals -->
 ## Goals
 
-The main goal is to create a new Animation Graph node - one that would mirror the
-input pose across the XZ plane.
+The main goal is to create a new Animation Graph node - one that would mirror the input pose across the XZ plane.
+
 ● By mirroring we mean that any transform that would be applied to a bone on the left
 side of the skeleton should be flipped and applied to a corresponding bone on the
 right. An animation showing a character moving their right hand should show them
