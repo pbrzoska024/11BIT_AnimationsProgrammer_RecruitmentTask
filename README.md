@@ -23,7 +23,8 @@
 
 * [Goals](#Goals)
 * [Requirements](#Requirements)
-* [Usage](#usage)
+* [Design](#Design)
+* [Roadmap](#roadmap)
  * [Built With](#built-with)
 * [Roadmap](#roadmap)
 
