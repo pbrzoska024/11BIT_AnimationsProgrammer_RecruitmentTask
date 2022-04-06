@@ -36,7 +36,6 @@
   <h3 align="center">Best-README-Template</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
     ![image](https://user-images.githubusercontent.com/53401206/161959305-35237ff0-6b66-4fae-a200-370559697e87.png)
   </p>
 </p>
