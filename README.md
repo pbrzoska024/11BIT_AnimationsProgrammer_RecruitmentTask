@@ -62,7 +62,7 @@ as the animations supplied with the sample.
 ● No third-party plugins should be used.
 
 
-
+<!-- Design -->
 ### Design behind mirroring node task
  
  Mirror Animations
