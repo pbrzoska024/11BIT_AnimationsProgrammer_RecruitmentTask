@@ -98,6 +98,14 @@ AddNew -> or Miscellaneous->DataAsset->Data_AxisConfig.
  
  ![image](https://user-images.githubusercontent.com/53401206/162951519-f0b4c829-9370-403b-9abe-066714106134.png)
  
+ 
+ All mirroring logic is handled inside UAnimMirror_Node : FAnimNode_Base. 
+ 
+ ![image](https://user-images.githubusercontent.com/53401206/162952723-294baa82-f371-4a62-85d8-9817bca03e80.png)
+ 
+ There is also UAnimGraphNode_Mirror_Base : UAnimGraphNode_Base which is the base class for any animation graph nodes 
+ that is required for editor for AnimNode to work in runtime and being customized such as: color, tooltiptext.
+ 
 
 
 
