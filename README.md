@@ -65,7 +65,18 @@ as the animations supplied with the sample.
 
 
 
-### Design behind mirroring node
+### Design behind mirroring node task
+ 
+ Mirror Animations
+To mirror skeletal animations two types of bones should be considered. Twin bones, which have their representation in antother Axis ( _l, _r ) like hands, arms, legs, foots and facial bones. And the other ones ,which have no twin, like pelvis, spines, neck and head.
+
+So to create a mirroring system, we have to define some meta data about the skeleton. The data is stored in Data_Asset class UData_MirrorTable.
+It stores all twin bones and also the name of the pelvis bone.
+ 
+ ![image](https://user-images.githubusercontent.com/53401206/162947739-fba3c5e7-fe35-439d-b57d-319ae1afddfd.png)
+ ![image](https://user-images.githubusercontent.com/53401206/162947838-fe8cc448-996a-4d8d-82ad-83f37d08bc7b.png)
+
+To mirror animations, I defined a custom animation node which can be used in unreal engine animation graph. It receives a pose in local space and mirrors it. It also has two input pins. One is for an animation mirror data object which should be initialized by the user and one is a boolean which let the node to be turned on or off. As you can see in the picture, there is no extra animation needed here and the node just accepts the current pose and mirrors it and you can turn it on or off based on the game or animation circumstances.
 
 
 
