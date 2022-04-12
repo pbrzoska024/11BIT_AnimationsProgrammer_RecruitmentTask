@@ -68,20 +68,34 @@ as the animations supplied with the sample.
 ### Design behind mirroring node task
  
  Mirror Animations
-To mirror skeletal animations two types of bones should be considered. Twin bones, which have their representation in antother Axis ( _l, _r ) like hands, arms, legs, foots and facial bones. And the other ones ,which have no twin, like pelvis, spines, neck and head.
+To mirror skeletal animations two types of bones should be considered. Twin bones, which have their representation in antother Axis ( _l, _r ) like hands, arms, legs, foots and facial bones. And the other ones, which have no twin, like pelvis, spines, neck and head.
 
 So to create a mirroring system, we have to define some meta data about the skeleton. The data is stored in Data_Asset class UData_MirrorTable.
-It stores all twin bones and also the name of the pelvis bone.
+It stores all twin bones in descending  order and also the name of the pelvis bone. To create new mirrortable you can use
+AddNew -> or Miscellaneous->DataAsset->Data_MirrorTable.
+There is already one created for default UE4 skeleton.
  
  ![image](https://user-images.githubusercontent.com/53401206/162947739-fba3c5e7-fe35-439d-b57d-319ae1afddfd.png)
  ![image](https://user-images.githubusercontent.com/53401206/162947838-fe8cc448-996a-4d8d-82ad-83f37d08bc7b.png)
 
-To mirror animations, I defined a custom animation node which can be used in unreal engine animation graph. It receives a pose in local space and mirrors it. It also has two input pins. One is for an animation mirror data object which should be initialized by the user and one is a boolean which let the node to be turned on or off. As you can see in the picture, there is no extra animation needed here and the node just accepts the current pose and mirrors it and you can turn it on or off based on the game or animation circumstances.
+To mirror animations there is also needed config file in which we can specify which Axis we want to use for later reflection of the character.
+For that purpose I have created Axis data asset config class named UData_AxisConfig. To create new axis config you can use
+AddNew -> or Miscellaneous->DataAsset->Data_AxisConfig.
+
+![image](https://user-images.githubusercontent.com/53401206/162949688-fab9397f-dbb1-4238-9c45-305e26101e16.png)
 
 
-
-
-
+ Both references to data_Assets should be placed inside Anim instance class created for mirroring purposes or derived class.
+ The base anim instance class is named UAnimInstance_Player. After creating the main animation class it should have below fields, setup them as in the image below.
+ 
+ ![image](https://user-images.githubusercontent.com/53401206/162950525-262636c4-ea5f-4adf-a4cb-fe7b51ede78a.png)
+ 
+ There is also an object class field called UAnimationMirrorObject that should be also specified as "Animation Mirror Object" like in the image above.
+ It synchronize our config data ( mirror table and axis config ) from Anim Instance -> to the Anim Node which handles all the mirroring logic.
+ The object is already setup to be created after AnimInstance initialization, so all you need to do is search it and connect to the mirror node.
+ 
+ ![image](https://user-images.githubusercontent.com/53401206/162951519-f0b4c829-9370-403b-9abe-066714106134.png)
+ 
 
 
 
