@@ -81,8 +81,10 @@ There is already one created for default UE4 skeleton.
 To mirror animations there is also needed config file in which we can specify which Axis we want to use for later reflection of the character.
 For that purpose I have created Axis data asset config class named UData_AxisConfig. To create new axis config you can use
 AddNew -> or Miscellaneous->DataAsset->Data_AxisConfig.
-
-![image](https://user-images.githubusercontent.com/53401206/162949688-fab9397f-dbb1-4238-9c45-305e26101e16.png)
+ 
+ <p align="center">
+  <img src="![image](https://user-images.githubusercontent.com/53401206/162949688-fab9397f-dbb1-4238-9c45-305e26101e16.png)" />
+</p>
 
 
  Both references to data_Assets should be placed inside Anim instance class created for mirroring purposes or derived class.
@@ -96,6 +98,7 @@ AddNew -> or Miscellaneous->DataAsset->Data_AxisConfig.
  
  ![image](https://user-images.githubusercontent.com/53401206/162951519-f0b4c829-9370-403b-9abe-066714106134.png)
  
+
 
 
 
