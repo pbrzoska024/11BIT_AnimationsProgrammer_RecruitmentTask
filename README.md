@@ -1,5 +1,3 @@
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
@@ -10,7 +8,7 @@
   <a href="https://github.com/pbrzoska024/FPS-MULTIPLAYER-PROJECT-WINDOWS64-32BIT-">
   </a>
   <img src="images/LOGO.jpg" alt="Logo" width="200" height="200">
-  <h3 align="center">Animation Programmer </h3>
+  <h3 align="center">Gameplay & Animation Programmer </h3>
 
   <p align="center">
   Recruitment Task
