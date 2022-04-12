@@ -63,7 +63,7 @@ as the animations supplied with the sample.
 
 
 <!-- Design -->
-## Design behind mirroring node task
+## Design
  
  Mirror Animations
 To mirror skeletal animations two types of bones should be considered. Twin bones, which have their representation in antother Axis ( _l, _r ) like hands, arms, legs, foots and facial bones. And the other ones, which have no twin, like pelvis, spines, neck and head.
