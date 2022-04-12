@@ -40,6 +40,8 @@ The main goal is to create a new Animation Graph node - one that would mirror th
 side of the skeleton should be flipped and applied to a corresponding bone on the
 right. An animation showing a character moving their right hand should show them
 moving their left hand instead.
+ 
+ ![Zrzut ekranu 2022-04-12 125903](https://user-images.githubusercontent.com/53401206/162945852-cd1e6c0f-3fa6-4569-a58a-5420cda831a5.png)
 
 ● The task should be done in C++. New subclasses FAnimNode_Base and
 UAnimGraphNode_Base should be created. These should be used in an Animation
