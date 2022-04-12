@@ -108,21 +108,15 @@ AddNew -> or Miscellaneous->DataAsset->Data_AxisConfig.
  
 
 
-
-
 <!-- Built with -->
 ## Built with
-* [Unreal Eninge]![image]     (https://user-images.githubusercontent.com/53401206/162954923-90f92782-13b9-4503-a56f-10c7d167027c.png)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
+* [Unreal Eninge] 4.27
+* [Rider as IDE]
+* [Visual Studio 2019 for complie]
+* [GitHub]
+
+
+Unreal Enigine :![image](https://user-images.githubusercontent.com/53401206/162955892-66e53cb8-36e6-4973-88e5-d9adeb21a44b.png)
 
 
 
