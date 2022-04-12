@@ -83,7 +83,7 @@ For that purpose I have created Axis data asset config class named UData_AxisCon
 AddNew -> or Miscellaneous->DataAsset->Data_AxisConfig.
  
  <p align="center">
-  <img src="![image](https://user-images.githubusercontent.com/53401206/162949688-fab9397f-dbb1-4238-9c45-305e26101e16.png)" />
+  <img src=![image](https://user-images.githubusercontent.com/53401206/162949688-fab9397f-dbb1-4238-9c45-305e26101e16.png) />
 </p>
 
 
