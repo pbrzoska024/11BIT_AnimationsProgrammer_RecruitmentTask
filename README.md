@@ -1,21 +1,5 @@
 
 
-<!-- PROJECT LOGO -->
-<p align="center">
- 
-<br />
-<p align="center">
-  <a href="https://github.com/pbrzoska024/FPS-MULTIPLAYER-PROJECT-WINDOWS64-32BIT-">
-  </a>
-  <img src="images/LOGO.jpg" alt="Logo" width="200" height="200">
-  <h3 align="center">Gameplay & Animation Programmer </h3>
-
-  <p align="center">
-  Recruitment Task
-   
-
-
-
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
